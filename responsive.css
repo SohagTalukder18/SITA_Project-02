@@ -1,0 +1,75 @@
+@media screen and (max-width:576px) {
+    .break{
+        display: inline;
+    }
+    .menu-container,
+    .sing-up-btn, .cube-left, .cube-right,.dot-1, .dot-2 {
+        display: none;
+    }
+    .menu-icom-wrapper{
+        display: block;
+    }
+   
+    .hero-wrapper, .hero-button-wrapper {
+        flex-direction: column;
+    }
+    .navbar {
+        padding: 20px 10px;
+    }
+
+    .hero-wrapper {
+        margin-left: 0px;
+        padding-block: 20px;
+        padding-inline: 10px;
+
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-text .hero-title {
+        font-size: 35px;
+        line-height: 40px;
+        padding-block: 10px;
+        text-align: center;
+    }
+    .hero-text .hero-description{
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    /* ==========Skill======= */
+    .card-container{
+       
+        grid-template-columns: repeat(1,1fr);
+        padding-inline: 10px;
+        
+    }
+    /* =============Project Design======== */
+    .project-design {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin-top: 80px;
+    }
+    .project-design-text .project-design-title {
+        font-size: 30px;
+    }
+    .project-design-text .project-design-description {
+      
+        padding-block: 15px 35px;
+    
+    }
+    /* ======= */
+    .pepole-info .info-title {
+       
+        font-size: 28px;
+        
+        padding-block: 25px;
+    }
+    .pepole-info .info-slider {
+     flex-direction: column;
+    }
+}

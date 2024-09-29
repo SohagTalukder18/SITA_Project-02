@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.break {
+    display: block;
+}
+
+/* ---------Navbar------------ */
+.navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Logo {
+    width: 200px;
+}
+
+.Logo img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    font-size: 14px;
+    color: #292F36;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background: linear-gradient(146.92deg, rgb(255, 174, 67), rgb(239, 41, 126));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 15px;
+    background: linear-gradient(111.60deg, rgb(239, 41, 126) 1.727%, rgb(255, 174, 67) 95.349%);
+}
+
+/* menu icon */
+.menu-icom-wrapper {
+    display: none;
+}
+
+/* Style the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Menu icon style */
+.menu-icon {
+    font-size: 24px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: white;
+    min-width: 160px;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.dropdown-content li {
+    list-style: none;
+}
+
+.dropdown-content li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.dropdown-content button {
+    margin-top: 50px;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.singup-button {
+    margin: 20px;
+    padding: 50px;
+}
+
+
+/* ----------Hero Section----------- */
+#hero-section {
+    background-image: url(img/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.hero-wrapper {
+    max-width: 1000px;
+    margin-left: 170px;
+    padding-block: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-text {
+    max-width: 450px;
+}
+
+.hero-text .hero-title {
+    background: linear-gradient(-25.68deg, rgba(255, 174, 67, 0.9), rgba(239, 41, 126, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 70px;
+    padding-block: 25px;
+
+}
+
+.hero-text .hero-description {
+    font-size: 18px;
+    font-weight: 500;
+    color: #292F36;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.hero-button-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.play-video-button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero-button-wrapper .play-button {
+    font-size: 50px;
+    /* background: linear-gradient(-25.68deg, rgba(255, 174, 67, 0.9), rgba(239, 41, 126, 0.9));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text; */
+    color: #d940088c;
+    border: 2px solid skyblue;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.hero-button-wrapper .play-video {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #292F36;
+}
+
+
+
+.hero-image {
+    max-width: 600px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+/* --------skill-------- */
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    column-gap: 35px;
+}
+
+.card {
+    max-width: 500px;
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 25px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.card:hover {
+    background: linear-gradient(148.75deg, rgb(255, 174, 67) -19.456%, rgb(239, 41, 126) 124.163%);
+}
+
+.skill-card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    padding: 35px;
+    background: linear-gradient(180.00deg, rgb(255, 174, 67), rgb(239, 41, 126) 100%);
+    border-radius: 50%;
+    transition: 0.9s all;
+}
+
+.card:hover .skill-card-image {
+    background: #fff;
+}
+
+.skill-card-image img {
+    width: 40px;
+}
+
+.skill-card-text {}
+
+.skill-card-text .skill-card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #292F36;
+}
+
+.skill-card-text .skill-card-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #292F36;
+    padding-top: 15px;
+}
+
+/* --------------- */
+
+.services-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #292F36;
+    padding: 15px;
+}
+
+.break {
+    display: block;
+}
+
+.services-description {
+    text-align: center;
+    font-size: 15px;
+    color: #292F36;
+    padding: 15px;
+}
+
+.services-card-wrapper {
+    padding-block: 50px;
+    padding-inline: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 30px;
+
+
+}
+
+
+.services-card {
+    max-width: 350px;
+    padding: 30px 10px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: 0.5s;
+}
+
+.services-card:hover {
+    background-color: #6846FF;
+    color: white;
+}
+
+.services-card:hover .services-card-title,
+.services-card:hover .services-card-description {
+    color: white;
+}
+
+.services-card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #6846FF;
+}
+
+.services-card-description {
+    font-size: 13px;
+    font-weight: 500;
+    color: #292F36;
+    padding-block: 10px;
+
+}
+
+/* -----------Project Design------------ */
+.cube-left {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.cube-right {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -74px;
+    right: -471px;
+}
+
+.cube-left-bottom {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 170px;
+    left: 70px;
+}
+
+.project-design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+    padding: 15px;
+}
+
+.project-design-image {
+    max-width: 450px;
+}
+
+.project-design-image img {
+    max-width: 100%;
+}
+
+.project-design-text {
+    max-width: 450px;
+}
+
+.mini-title {
+    background: linear-gradient(158.20deg, rgb(255, 174, 67), rgb(239, 41, 126));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.project-design-text .project-design-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #292f36;
+    padding-block: 15px;
+
+}
+
+.project-design-text .project-design-description {
+    color: #292f36;
+    font-size: 16px;
+    font-weight: 400;
+    padding-block: 25px 45px;
+
+}
+
+/* ============Slider Info=========== */
+#slider-info-section {
+    background: linear-gradient(143.51deg, rgb(255, 174, 67) -5.747%, rgb(239, 41, 126) 109.646%);
+}
+
+.dot-1 {
+    position: relative;
+    left: -185px;
+    top: -165px;
+}
+
+.dot-2 {
+    position: relative;
+    left: 180px;
+    top: 10px;
+}
+
+.pepole-info {
+    padding: 15px;
+}
+
+.pepole-info .info-title {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-block: 35px;
+}
+
+.pepole-info .info-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-image {
+    max-width: 450px;
+}
+
+.slider-image img {
+    width: 100%;
+}
+
+.slider-text {
+    max-width: 500px;
+}
+
+.slider-text .slider-descriotion {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.slider-text .pepole-name {
+    color: #fff;
+    padding-block: 15px 10px;
+
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.slider-text .pepole-profession {
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.quote {
+    font-size: 25px;
+    /* font-weight: bold; */
+    line-height: 0px;
+    color: gray;
+}
+
+/* .quotation{
+    width: 30px;
+}
+.quote-icon {
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+  }
+.close-quote{
+    margin-top: 20px;
+}   */
+
+
+.rating .star {
+    font-size: 30px;
+    color: gold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating .star:hover,
+.rating .star:hover~.star {
+    color: lightgray;
+}
