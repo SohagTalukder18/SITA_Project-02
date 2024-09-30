@@ -72,4 +72,19 @@
     .pepole-info .info-slider {
      flex-direction: column;
     }
+    /* ======= */
+    .good-design-text {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .good-design-title {
+        font-size: 25px; 
+    }
+
+    .good-desing-image{
+        
+        grid-template-columns: repeat(1,1fr);
+        
+    }
 }

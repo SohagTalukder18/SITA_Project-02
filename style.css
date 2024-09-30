@@ -525,3 +525,37 @@ body {
 .rating .star:hover~.star {
     color: lightgray;
 }
+
+
+/* ============= */
+.good-design-wrapper {
+    margin-top: 50px;
+    padding: 15px;
+}
+
+
+.good-design-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.good-design-title {
+    color: #292f36;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.good-desing-image{
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.good-image{
+    max-width: 320px;
+}
+.good-image img{
+    width: 100%;
+}
